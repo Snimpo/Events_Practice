@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Movies & Series</title>
+    <link rel="stylesheet" href="myStyles.css">
+</head>
+
+<body>
+<div class="block">
+    <h1> Movie Finder</h1>
+    <p> Are you looking for movies or series?:</p>
+</div>
+    <select id="selectType">
+        <option value="null">---Select an Option---</option>
+        <option value="peliculas.json">Movies</option>
+        <option value="series.json">Series</option>
+    </select>
+    <br>
+    <br>
+    <div class="input">
+        <input type="text" id="userInput">
+        
+        <button id="searchButton">Search</button>
+    </div>
+    <div class="ul">
+        <ul id="list">
+        </ul>
+    </div>
+
+</body>
+<script src="myScripts.js"></script>
+
+</html>
